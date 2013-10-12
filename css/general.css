@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/* Base Styles */
+
+html, body{
+	background-color: #130c1b;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+/* Resets defaults for new HTML5 Elements */
+main, header, footer{
+	display: block;
+}
+
+img{
+	border: 0;
+}
+
+.h1{ 
+/* Class for H1 Styles since there should only be one H1 on a page */
+	font-family: 'Raleway', sans-serif;
+	color: #d6c2b1;
+	font-size: 20px;
+	font-weight:100;
+	letter-spacing: 1px;
+	line-height: 10px;
+	padding-bottom:20px;
+}
+	
+h2{ 
+	font-family: 'Raleway', sans-serif;
+	color: #d6c2b1;
+	font-size: 15px;
+	font-weight:100;
+	letter-spacing: 1px;
+}
+	
+h3{ 
+	font-family: 'Raleway', sans-serif;
+	color: #d6c2b1;
+	font-size: 28px;
+	font-weight:100;
+	letter-spacing: 1px;
+	margin-top:-10px;
+	margin-bottom:-10px;
+}
+	
+h4{
+	font-family: 'Raleway', sans-serif;
+	color: #500128;
+	font-size: 30px;
+	font-weight:1000;
+	letter-spacing: 1px;
+	margin-top:10px;
+	margin-bottom:-10px;
+	padding-bottom: 10px;
+}
+	
+	
+p{
+	font-family: 'Raleway', sans-serif;
+	color:  #130c1b;
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin:0;
+	padding-top: 20px;
+}
+
+body{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #130c1b;
+	display: block;
+	margin-top: 0px;
+	padding-top: 10px;
+	padding-bottom: 100px;
+}
+
+.container{
+	text-align: center;
+	overflow: auto;
+	padding: 10px 0 100px;
+}
+
+/* Container for Logo and Logo */
+
+.wrapper{ 
+	display:block;
+	width: 100%;
+	background-color: #320a1e;
+	height: 310px;
+}
+
+.logo{
+	padding-top: 20px;
+}
+
+/* Explaination Text */
+
+.paragraph{	
+	display:block;
+	padding-top: 30px;
+}
+
+/* Social Stuff */
+
+.social img{
+	padding-top:30px;
+	padding-right: 40px;
+}
+
+.social {
+	padding-bottom: 40px;
+}
+
+/* Container for Columns */
+
+.wrappertwo{
+	width: 900px;
+	margin: 0 auto;
+	overflow: auto;
+	-webkit-border-radius:30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	-ms-border-radius: 30px;
+	border-radius: 30px;
+	min-height: 835px;
+	background-color: blue;
+}
+
+/* Columns */
+.col{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+	padding: 20px 50px 30px;
+	width: 50%;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+	
+/* About and Contact Sections */
+
+.about{
+	background-color: #FFF5D9;
+}
+
+.contact{
+	background-color: red;
+}
+
+/* Address and Map */
+
+address{
+	margin-top: 20px;
+}
+
+iframe{
+	width: 100%;
+	-webkit-border-radius:10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	margin-top: 20px;
+	border: 3px solid green;
+}
+
+
+
