@@ -24,7 +24,7 @@ img{
 	color: #d6c2b1;
 	font-size: 20px;
 	font-weight:100;
-	letter-spacing: 1px;
+	letter-spacing: 3px;
 	line-height: 10px;
 	padding-bottom:20px;
 }
@@ -43,6 +43,7 @@ h3{
 	font-size: 28px;
 	font-weight:100;
 	letter-spacing: 1px;
+	line-height:40px;
 	margin-top:-10px;
 	margin-bottom:-10px;
 }
@@ -119,6 +120,14 @@ body{
 
 /* Container for Columns */
 
+.wrapperthree{
+	width: 100%;
+	background-color: #320a1e;
+	padding-top:60px;
+	padding-bottom:60px;
+
+}
+
 .wrappertwo{
 	width: 900px;
 	margin: 0 auto;
@@ -129,7 +138,7 @@ body{
 	-ms-border-radius: 30px;
 	border-radius: 30px;
 	min-height: 835px;
-	background-color: blue;
+	background-color: #B79D79;
 }
 
 /* Columns */
@@ -152,16 +161,22 @@ body{
 /* About and Contact Sections */
 
 .about{
-	background-color: #FFF5D9;
+	background-color: #B79D79;
 }
 
 .contact{
-	background-color: red;
+	background-color: #B79D79;
 }
 
 /* Address and Map */
 
 address{
+	font-family: 'Raleway', sans-serif;
+	color:  #130c1b;
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: 3100px;
+	letter-spacing: 1px;
 	margin-top: 20px;
 }
 
