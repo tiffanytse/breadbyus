@@ -11,6 +11,11 @@ html, body{
 	
 }
 
+a:link {color:#320a1e;}      /* unvisited link */
+a:visited {color:#320a1e;}  /* visited link */
+a:hover {color:#320a1e;}  /* mouse over link */
+a:active {color:#320a1e;}  /* selected link */
+
 /* Resets defaults for new HTML5 Elements */
 main, header, footer{
 	display: block;
@@ -92,11 +97,22 @@ h3{
 	margin-top:-10px;
 	margin-bottom:-10px;
 }
+
 	
 h4{
 	color: #500128;
 	font-size: 30px;
-	font-weight:1000;
+	font-weight:1000px;
+	letter-spacing: 1px;
+	margin-top:10px;
+	margin-bottom:-10px;
+	padding-bottom: 10px;
+}
+
+h5{
+	color: #500128;
+	font-size: 15px;
+	font-weight:500px;
 	letter-spacing: 1px;
 	margin-top:10px;
 	margin-bottom:-10px;
@@ -113,6 +129,8 @@ p{
 	margin:0;
 	padding-top: 20px;
 }
+
+p.italic {font-style:italic;}
 
 body{
 	margin-left: auto;
@@ -202,20 +220,33 @@ body{
 
 .right{
 	float: right;
+	padding-top: 65px;
 }
 	
 /* About and Contact Sections */
 
 .about{
 	background-color: #B79D79;
-	min-height: 835px;
+	min-height: 600px;
 	
 }
 
-.menu{
+.access{
+	background-color: #B79D79;
+	min-height: 600px;
+	
+}
+
+.bread{
 	min-height: 105px;
 	
 }
+
+.coffee{
+	min-height: 105px;
+	
+}
+
 
 .contact{
 	background-color: #B79D79;
